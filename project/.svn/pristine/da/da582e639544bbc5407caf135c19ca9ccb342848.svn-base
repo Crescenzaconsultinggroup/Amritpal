@@ -1,0 +1,150 @@
+.nav>li>a { ///////tab problem solve
+    position: relative;
+    display: block;
+    padding: 10px 10px;
+}
+
+//master data
+.mx-tabcontainer .mx-tabcontainer-tabs>li.active>a, .mx-tabcontainer .mx-tabcontainer-tabs>li.active>a:hover, .mx-tabcontainer .mx-tabcontainer-tabs>li.active>a:focus {
+    color: #000000;
+   // border: 1px solid #1d222a;
+    border-bottom-color: #18e27500;
+    background-color: #BFD732;
+    font-weight: bold;
+    transform: scale3d(1.1, 1.2, 1.1);
+}
+
+
+
+//all tabs border
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid #ffffff;
+    border-radius: 4px 4px 0 0;
+}
+//headet tab length
+.layout-atlas .region-topbar {
+    position: relative;
+    z-index: 1;
+    min-height: 50px;
+    border-bottom: 1px solid #00465b;
+    background-color: #00465B;
+   // box-shadow: 0 1px 4px 0 rgb(0 0 0 / 14%);
+}
+
+//light hover red color
+.mx-tabcontainer .mx-tabcontainer-tabs>li>a:hover, .mx-tabcontainer .mx-tabcontainer-tabs>li>a:focus {
+    background-color: #BFD732;
+    color:#000000
+}
+
+
+
+//tab font
+.mx-tabcontainer .mx-tabcontainer-tabs>li>a {
+    margin-right: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    //color: #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 15px 15px 0px 0px;
+    border: 1px solid #ffffff;
+    background-color: #00465b;
+}
+//border line
+.mx-tabcontainer .mx-tabcontainer-tabs {
+    margin-bottom: 20px;
+    //border: 2px solid #00465B;
+    border-color: #ffffff;
+    background-color: #ffffff; //
+    width: 1130px;
+    
+}
+
+
+//header margin right
+.layout-atlas .region-topbar .navbar-brand {
+    display: inline-block;
+    float: none;
+    height: auto;
+    padding: 0;
+    line-height: inherit;
+    margin-right: 0px;
+}
+
+
+
+.next.mx-grid {
+    padding: 0px 0px 0px 20px;
+    border-radius: 0;
+}
+
+
+/*
+.next.mx-grid .mx-grid-controlbar {
+    margin: 10px 460px 10px 0px;
+}
+*/
+
+.nav>li>a { ///////tab problem solve
+    position: relative;
+    display: block;
+    padding: 10px 10px;
+}
+//box shadow
+.btn, .btn-default {
+    /* color: #00465B; */
+    /* border-color: #616265; */
+    /* background-color: #fff; */
+    /* padding: 0px 0px; */
+    /* width: 70px; */
+    /* height: 37px; */
+    /* font-size: 14px; */
+    /* text-align: center; */
+    /* cursor: pointer; */
+    /* outline: none; */
+    /* color: #00465B; */
+    /* background-color: #f5f5f5; */
+    /* border: 1px solid #00465b; */
+    /* border-radius: 12px; */
+    //box-shadow: 0px 5px #ffffff; 
+    padding: 0px 0px;
+    width: 70px;
+    height: 37px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    /* color: #00465B; */
+    background-color: #f5f5f5;
+    border: 1px solid #00465b;
+    border-radius: 12px;
+    /* box-shadow: 0px 5px #00465b; */
+}
+
+
+
+
+
+
+//pop up page bottom-border
+.modal-dialog .modal-content .modal-header {
+    padding: 15px 20px;
+    border-bottom-color: #D7D7D7;
+    border-radius: 0;
+    background-color: rgba(0,0,0,0);
+    border-bottom: 2px solid #BFD732;
+}
+
+//header font
+.modal-dialog .modal-content .modal-header h4 { 
+    margin: 0;
+    color: #00465B;
+    font-size: 18px;
+    font-weight: bold;
+}
+

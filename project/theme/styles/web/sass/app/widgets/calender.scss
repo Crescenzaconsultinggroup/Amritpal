@@ -1,0 +1,25 @@
+//calender
+.mx-calendar {
+    z-index: 10010 !important;
+    padding: 10px;
+    font-size: 12px;
+    background: #ffffff;
+    border-radius: 4px;
+    border: 1px solid $ccg-red;
+    //box-shadow: 0 2px 10px 0 rgb(0 0 0 / 6%);
+}
+
+.mx-calendar .mx-calendar-day-month-next, .mx-calendar .mx-calendar-day-month-previous {
+    color: #8e96a1;
+}
+.mx-calendar td {
+    color: #3F4349;
+}
+//calender border
+.mx-calendar .mx-calendar-month-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 3px 10px 3px;
+    border-bottom: 2px solid $ccg-red;
+}

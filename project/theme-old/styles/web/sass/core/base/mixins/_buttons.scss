@@ -1,0 +1,97 @@
+//
+// DISCLAIMER:
+// Do not change this file because it is core styling.
+// Customizing core files will make updating Atlas much more difficult in the future.
+// To customize any core styling, copy the part you want to customize to styles/web/sass/app/ so the core styling is overwritten.
+//
+
+@mixin button-variant($color, $background, $border, $hover) {
+    color: $color;
+    border-color: $border;
+    background-color: $background;
+
+
+    //  hidden button
+    padding: 0px 0px;
+    width: 70px;
+    height: 37px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline:none;
+    color: #00465B;
+    background-color: #f5f5f5;
+    border: 1px solid #00465b;
+    border-radius: 12px;
+    box-shadow: 0px 5px #00465b;padding: 0px 0px;
+    width: 70px;
+    height: 37px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline:none;
+    color: #00465B;
+    background-color: #f5f5f5;
+    border: 1px solid #00465b;
+    border-radius: 12px;
+    box-shadow: 0px 5px #00465b;
+    //
+
+
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.active,
+    .open > &.dropdown-toggle {
+        color: $color;
+        border-color: $hover;
+        background-color: $hover;
+    }
+    &:active,
+    &.active,
+    .open > &.dropdown-toggle {
+        background-image: none;
+    }
+    &.disabled,
+    &[disabled],
+    fieldset[disabled] {
+        &,
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+            border-color: $border;
+            background-color: $background;
+        }
+    }
+    // Button bordered
+    &.btn-bordered {
+        background-color: transparent;
+        @if $color != $btn-default-color {
+            color: $border;
+        }
+        &:hover,
+        &:focus,
+        &:active,
+        &.active,
+        .open > &.dropdown-toggle {
+            color: $color;
+            border-color: $border;
+            background-color: $border;
+        }
+    }
+    // Button as link
+    &.btn-link {
+        text-decoration: none;
+        border-color: transparent;
+        background-color: transparent;
+        @if $color != $btn-default-color {
+            color: $background;
+        }
+        &:hover {
+            border-color: $btn-link-bg-hover;
+            background-color: $btn-link-bg-hover;
+        }
+    }
+}

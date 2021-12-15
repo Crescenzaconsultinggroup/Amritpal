@@ -1,0 +1,171 @@
+.b2 {
+    padding: 0px 0px;
+    width: 70px;
+    height: 37px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline:none;
+    color: #CA0B00;
+    background-color: #f5f5f5;
+    border: 1px solid #CA0B00;
+    border-radius: 12px;
+    box-shadow: 0px 5px #CA0B00;
+}
+/*
+.b2.btn:hover,.btn-default:hover
+{
+//color: #CA0B00;
+border-color: #ddd;
+//background-color: #ddd;
+border: 1px solid #CA0B00;
+box-shadow: 0px 5px #CA0B00;
+}
+*/
+.btn-default{
+    padding: 0px 0px;
+    width: 70px;
+    height: 37px;
+    font-size: 14px;
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+    outline:none;
+    color: $ccg-grey;
+    background-color: #EEEEEE;
+    border: 1px solid $ccg-grey;
+    box-shadow: 0px 5px $ccg-grey;
+    
+}
+
+
+.btn-default:hover{
+transition: 0.5s;
+color: $ccg-grey;
+background-color: #EEEEEE;
+border: 1px solid $ccg-red;
+box-shadow: 0px 5px $ccg-red;
+}
+
+
+
+.b3{
+    padding: 0px 0px;
+    width: 70px;
+    height: 37px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: $ccg-grey;
+    background-color: #f5f5f5;
+    border: 1px solid $ccg-grey;
+    border-radius: 12px;
+    box-shadow: 0 5px $ccg-grey;
+}
+
+
+
+//all master data backgroud white
+body {
+    min-height: 100%;
+    color: $ccg-grey;
+    background-color: #ffffff;
+    font-family: "Adient Sans",sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.42857;
+}
+
+//home page margin top header
+.pageheader-title {
+    margin: 10px 0px;
+}
+//logo left margin
+.layout-atlas .region-topbar .navbar-brand img {
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    margin-left: 50px;
+}
+
+// group box styling
+.multiselect-container>li>a>label.checkbox, .multiselect-container>li>a>label.radio {
+    margin: 0 0 0 -36px;
+}
+
+
+//left naviation
+.region-sidebar{
+    background-color:$ccg-grey;
+}
+.region-sidebar .mx-navigationtree li.mx-navigationtree-has-items>ul li a {
+    color: #ffffff;
+    background-color: $ccg-grey;
+    font-size: 12px;
+}
+.region-sidebar .mx-navigationtree li.mx-navigationtree-has-items>ul li a:hover, .region-sidebar .mx-navigationtree li.mx-navigationtree-has-items>ul li a:focus, .region-sidebar .mx-navigationtree li.mx-navigationtree-has-items>ul li a.active {
+    color: $ccg-red;
+    background-color: transparent;
+}
+
+.region-topbar .mx-navbar { //background color
+    background-color: #ffffff;
+}
+.region-topbar .mx-navbar ul.nav>li.mx-navbar-item>a:hover, .region-topbar .mx-navbar ul.nav>li.mx-navbar-item>a:focus, .region-topbar .mx-navbar ul.nav>li.mx-navbar-item>a.active {
+    color: whitex;
+    background-color: $ccg-grey;
+}
+.region-topbar .mx-navbar ul.nav>li.mx-navbar-item>a {
+    color: #ffffff;
+    font-size: 16px;
+    background-color: $ccg-grey;
+    border-radius: 15px 15px 0px 0px;
+    border: 1px solid #ffffff;
+
+}
+
+
+
+.mx-listview .mx-table th, .mx-listview .mx-table td {
+    padding: 10px;
+}
+
+.mx-listview>ul>li {
+    -webkit-transition: all .3s 0s cubic-bezier(0.4, 0, 0.2, 1);
+    -moz-transition: all .3s 0s cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: all .3s 0s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all .3s 0s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-style: initial;
+    padding: 0px 0px 0px 0px;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #D7D7D7;
+    background-color: #fff;
+}
+
+
+//container height
+.card-container .mx-image {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 165px;
+}
+
+
+.mx-tabcontainer .mx-tabcontainer-tabs > li > a,
+ .mx-tabcontainer .mx-tabcontainer-tabs > li > a,
+  .mx-tabcontainer .mx-tabcontainer-tabs > li > a {
+
+    color: $ccg-grey;
+    background-color: #EEEEEE;
+}
+
+.mx-tabcontainer .mx-tabcontainer-tabs > li.active > a,
+ .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a:hover,
+  .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a:focus {
+    transition: 0.5s;
+    color: $ccg-grey;
+    background-color: #EEEEEE;
+    border-bottom: 3px solid $ccg-red;
+}

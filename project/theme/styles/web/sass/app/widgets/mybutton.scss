@@ -1,0 +1,83 @@
+.b2 {
+    padding: 0px 0px;
+    width: 70px;
+    height: 37px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline:none;
+    color: #CA0B00;
+    background-color: #f5f5f5;
+    border: 1px solid #CA0B00;
+    border-radius: 12px;
+    box-shadow: 0px 5px #CA0B00;
+}
+/*
+.b2.btn:hover,.btn-default:hover
+{
+//color: #CA0B00;
+border-color: #ddd;
+//background-color: #ddd;
+border: 1px solid #CA0B00;
+box-shadow: 0px 5px #CA0B00;
+}
+*/
+.b1 {
+    padding: 0px 0px;
+    width: 70px;
+    height: 37px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline:none;
+    color: $ccg-grey;
+    background-color: $ccg-grey;
+    border-bottom: 5px solid $ccg-grey;
+    border-radius: 12px;
+    box-shadow: 0px 5px $ccg-grey;
+}
+
+
+b1.btn:hover,.btn-default:hover
+{
+color: #ffffff;
+//color: #00465b;
+//border-color: #ddd;
+background-color: $ccg-grey;
+//background-color: #BCBCBE;
+border: 1px solid $ccg-grey; //
+//box-shadow: 0px 5px #00465b;
+}
+
+
+
+.b3{
+    padding: 0px 0px;
+    width: 70px;
+    height: 37px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: $ccg-grey;
+    background-color: #f5f5f5;
+    border: 1px solid $ccg-grey;
+    border-radius: 12px;
+    box-shadow: 0 5px $ccg-grey;
+}
+
+
+//@media (min-width: 992px) login left spacing
+.spacing-outer-left-medium {
+    margin-left: 785px !important;
+}
+//all master data backgroud white
+body {
+    min-height: 100%;
+    color: $ccg-grey;
+    background-color: #ffffff;
+    font-family: "Adient Sans",sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.42857;
+}

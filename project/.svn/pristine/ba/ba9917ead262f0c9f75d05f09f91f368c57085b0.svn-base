@@ -1,0 +1,95 @@
+
+
+
+/* CCG Color Pallete */
+
+//Primary
+$ccg-grey: #3F4349;
+$ccg-red: #FD6262;
+
+//greys and blacks
+$ccg-black: #000;
+$ccg-grey: #3F4349;
+$ccg-lightgrey: #BCBCBE;
+
+/* Default Color Pallete */
+
+// Grey Shades
+// Different grey shades to be used for our variables and components
+$grey-darker:                                       #222222;
+$grey-dark:                                         #333333;
+$grey:                                              #555555;
+$grey-light:                                        #888888;
+$grey-primary:                                      #D7D7D7;
+$grey-lighter:                                      #EEEEEE;
+
+// Step 1: Brand Colors
+$brand-default:                                     #DDDDDD;
+$brand-primary:                                     $ccg-grey;
+$brand-inverse:                                     #252C36;
+$brand-info:                                        #48B0F7;
+$brand-success:                                     #76CA02;
+$brand-warning:                                     #F99B1D;
+$brand-danger:                                      #ED1C24;
+
+// Used for other variables
+$default-border-color:                              $grey-primary;
+
+//== Step 3: Typography
+// $font-family-import:                                "https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap";
+// @if $font-family-import != false {
+//     // Only import, if the import is set
+//     @import url($font-family-import);
+// }
+$font-family-base:                                  "Adient Sans", sans-serif;
+$font-family-italics:                               "Adient Sans Italic", sans-serif;
+
+
+$font-base-size:                                    16px;
+$font-base-color:                                   #555555;
+$link-color:                                        $ccg-red;
+$font-size-h1:                                      45px;
+$font-size-h2:                                      32px;
+$font-size-h3:                                      24px;
+$font-size-h4:                                      18px;
+$font-color-detail:                                 $grey-light;
+$font-color-headers:                                $brand-primary;
+
+//== Step 2: UI Customization
+
+// Topbar
+$topbar-bg:                                         $ccg-red;
+$navtopbar-border-color:                            $ccg-red;
+$topbar-border-color:                               $navtopbar-border-color;
+$topbar-minimalheight:                              60px;
+$navtopbar-color:                                   $font-base-color;
+$navbar-brand-name:                                 $default-border-color;
+$brand-logo:                                        false;
+$brand-logo-height:                                 40px;
+$brand-logo-width:                                  40px;
+
+// Sidebar
+$sidebar-bg:                                        $ccg-lightgrey;
+$navsidebar-color:                                  white;
+$navsidebar-color-hover:                            $ccg-red;
+
+
+
+
+// Backgrounds
+$bg-color:                                          $grey;
+$bg-color-secondary:                                #F5F8FD;
+
+// == Old variables used in theme customizer to the new lib variables
+$font-size-default:                                 $font-base-size;
+$font-color-default:                                $font-base-color;
+$border-color-default:                              $default-border-color;
+$font-color-header:				                    $font-color-headers;
+
+
+//== Settings
+//## Enable or disable your desired framework features
+// Use of !important
+$important-flex:                                    true; // ./base/flex.scss
+$important-spacing:                                 true; // ./base/spacing.scss
+$important-helpers:                                 true; // ./helpers/helperclasses.scss

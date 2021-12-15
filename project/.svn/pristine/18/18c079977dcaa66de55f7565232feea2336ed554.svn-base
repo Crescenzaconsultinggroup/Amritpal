@@ -1,0 +1,81 @@
+/* ==========================================================================
+   Pageheader
+========================================================================== */
+
+//== Default
+//-------------------------------------------------------------------------------------------------------------------//
+.pageheader {
+    border-bottom: 1px solid $border-color-default;
+    background: $header-bg-color;
+}
+
+// Check if it is part of a inner layoutgrid
+.mx-scrollcontainer .mx-placeholder .mx-layoutgrid .pageheader {
+    @include get-responsive-spacing-large($type: margin, $direction: bottom);
+    @include get-responsive-spacing-large($type: padding, $direction: bottom);
+    background: transparent;
+}
+
+//== Elements
+//-------------------------------------------------------------------------------------------------------------------//
+.pageheader-type {
+    margin: 0;
+}
+
+.pageheader-title {
+    margin: 0;
+}
+
+.pageheader-subtitle {
+    margin: 0;
+}
+
+//== Variations
+//-------------------------------------------------------------------------------------------------------------------//
+.pageheaderwithcontrols {
+    .controlgroup {
+    }
+}
+
+.pageheaderwithimage {
+    .pageheader-image {
+    }
+    .figurecontent {
+    }
+}
+
+.pageheaderwithimageandcontrols {
+}
+
+.pageheaderwithsearch {
+    .pageheader-title {
+        margin-bottom: 1em;
+    }
+}
+
+.pageheaderwithbreadcrumb {
+    .breadcrumb {
+    }
+}
+
+
+//homepage header
+.homepage-header {
+    //background-color: $adient-teal;
+    background: rgb(4,69,87);
+    background: linear-gradient(153deg, rgba(4,69,87,1) 0%, rgba(3,45,56,1) 32%, rgba(1,14,17,1) 70%, rgba(0,55,101,1) 95%);
+    .mx-text {
+        color: #fff;
+    }
+    .mx-text .mx-name-text2 .text-detail {
+        color: #fff !important;
+        line-height: 1.5em;
+    }
+
+    .underline-container {
+        border-bottom: 3px solid $adient-green;
+        padding-right: 100px;
+        padding-bottom: 25px;
+    }
+
+}
